@@ -1,0 +1,29 @@
+###
+
+//ska hämta alla kategorier
+
+GET http://localhost:3000/products/categories
+
+###
+
+POST http://localhost:3000/products/productsbycategory
+Content-Type: application/json
+
+{
+"productLine": "Classic Cars"
+}
+
+###
+
+//get all offices
+GET http://localhost:3000/offices
+
+###
+
+// send employees at office
+POST http://localhost:3000/offices/employees
+Content-Type: application/json
+
+{
+"officeCode": "1"
+}

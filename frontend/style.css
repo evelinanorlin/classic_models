@@ -1,0 +1,8 @@
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+
+.offices{
+  display: flex;
+}
